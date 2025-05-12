@@ -38,6 +38,7 @@ body {
 
 .header {
   background: linear-gradient(to bottom, #000, transparent);
+  justify-content: center;
   color: white;
   padding: 1rem;
 }
