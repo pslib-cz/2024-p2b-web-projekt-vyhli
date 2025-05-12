@@ -1,20 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="/src/styles/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>O Vesmíru</title>
-  </head>
-  <body>
-    <div class="app">
-      <h1>Hello Example page</h1>
-      <p><a href="./contacts/">Link to Contact page</a></p>
-      <p><a href="%BASE_URL%contacts/">Link to Contact page</a></p>
-      <p><a href="%BASE_URL%swiper/">Link to Swiper example</a></p>
-      <p><a href="%BASE_URL%gallery.html">Link to Gallery example</a></p>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="/src/styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O Vesmíru</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="nav">
+      <div class="nav-left">
+        <a href="%BASE_URL%contacts/">O Vesmíru</a>
+        <a href="%BASE_URL%contacts/">Galaxie</a>
+        <a href="%BASE_URL%contacts/">Hvězdy</a>
+        <a href="%BASE_URL%contacts/">Černé Díry</a>
+        <a href="%BASE_URL%contacts/">Dotazy</a>
+      </div>
     </div>
-    <script type="module" src="/src/scripts/main.js"></script>
-  </body>
+    <div class="hero">
+      <h1>O Vesmíru</h1>
+      <p>Vesmír či kosmos je souhrnné označení veškeré hmoty, energie a časoprostoru, které je obsaženo…</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="cards-section">
+      <h2>Prozkoumej</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="galaxie.jpg" alt="Galaxie">
+          <h3>Galaxie</h3>
+          <p>Hvězda nebo zářivá stlačená tělesa ve vesmíru…</p>
+        </div>
+        <div class="card">
+          <img src="hvezdy.jpg" alt="Hvězdy">
+          <h3>Hvězdy</h3>
+          <p>Hvězda nebo zářivá stlačená tělesa ve vesmíru…</p>
+        </div>
+        <div class="card">
+          <img src="cernadira.jpg" alt="Černé díry">
+          <h3>Černé díry</h3>
+          <p>Černá díra je vesmírný objekt s hmotností…</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="exoplanets">
+      <div class="exoplanets-content">
+        <h2>Exoplanety</h2>
+        <p>Body text for whatever you’d like to expand on the main point.</p>
+        <button>Zjisti víc</button>
+      </div>
+      <img src="exoplaneta.jpg" alt="Exoplaneta">
+    </section>
+
+    <section class="articles">
+      <h2>Další články</h2>
+      <div class="article-grid">
+        <div class="article-card">
+          <img src="slunecni.jpg" alt="Sluneční soustava">
+          <h3>Sluneční soustava</h3>
+          <p>Body text for whatever…</p>
+        </div>
+        <div class="article-card">
+          <img src="teleskop.jpg" alt="Teleskop Jamesse Webba">
+          <h3>Teleskop Jamesse Webba</h3>
+          <p>Body text for whatever…</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Vesmír</p>
+  </footer>
+
+  <script type="module" src="/src/scripts/main.js"></script>
+</body>
 </html>

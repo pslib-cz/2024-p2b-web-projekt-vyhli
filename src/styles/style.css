@@ -23,3 +23,124 @@ body {
   padding: 2rem;
   text-align: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.header {
+  background: linear-gradient(to bottom, #000, transparent);
+  color: white;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left a {
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+.cards-section h2,
+.articles h2 {
+  margin-bottom: 1rem;
+}
+
+.card-grid,
+.article-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card, .article-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.card img,
+.article-card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3,
+.article-card h3 {
+  margin: 0.5rem;
+}
+
+.card p,
+.article-card p {
+  margin: 0 0.5rem 0.5rem;
+  font-size: 0.9rem;
+}
+
+.exoplanets {
+  display: flex;
+  align-items: center;
+  background: #000;
+  color: white;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.exoplanets-content {
+  max-width: 50%;
+}
+
+.exoplanets img {
+  width: 50%;
+  border-radius: 12px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
