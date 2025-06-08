@@ -2,82 +2,100 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/2024-p2b-web-projekt-vyhli/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/2024-p2b-web-projekt-vyhli/vite.svg" />
   <title>O Vesmíru</title>
   <script type="module" crossorigin src="/2024-p2b-web-projekt-vyhli/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
   <script type="module" crossorigin src="/2024-p2b-web-projekt-vyhli/assets/hamburger-DzGNCfwF.js"></script>
   <script type="module" crossorigin src="/2024-p2b-web-projekt-vyhli/assets/main-Bgzv3cQd.js"></script>
-  <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-vyhli/assets/style-B6rBd8RA.css">
+  <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-vyhli/assets/style-0h2f5dMH.css">
 </head>
 <body>
-
-  <header class="header">
-    <div class="nav">
-      <div class="nav-left">
-        <a href="/2024-p2b-web-projekt-vyhli/contacts/">O Vesmíru</a>
-        <a href="/2024-p2b-web-projekt-vyhli/contacts/">Galaxie</a>
-        <a href="/2024-p2b-web-projekt-vyhli/contacts/">Hvězdy</a>
-        <a href="/2024-p2b-web-projekt-vyhli/contacts/">Černé Díry</a>
-        <a href="/2024-p2b-web-projekt-vyhli/contacts/">Dotazy</a>
-      </div>
-    </div>
-    <div class="hero">
-      <h1>O Vesmíru</h1>
-      <p>Vesmír či kosmos je souhrnné označení veškeré hmoty, energie a časoprostoru, které je obsaženo…</p>
-    </div>
+  <header class="main-header">
+    <div class="logo">O Vesmíru</div>
+    <nav class="main-nav">
+      <a class="nav-item" href="/2024-p2b-web-projekt-vyhli/index.html" >Vesmír</a>
+      <a class="nav-item" href="/2024-p2b-web-projekt-vyhli/galaxie.html" >Galaxie</a>
+      <a class="nav-item" href="/2024-p2b-web-projekt-vyhli/hvezdy.html" >Hvězdy</a>
+      <a class="nav-item" href="/2024-p2b-web-projekt-vyhli/cernediry.html" >Černé Díry</a>
+      <a class="nav-item" href="/2024-p2b-web-projekt-vyhli/dotaznik.html" >Dotazy</a>
+    </nav>
   </header>
 
   <main>
-    <section class="cards-section">
+    <section class="hero">
+      <img src="/2024-p2b-web-projekt-vyhli/img/vesmir.PNG" alt="" class="hero-image">
+      <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>O Vesmíru</h1>
+          <p>Vesmír či kosmos je souhrnné označení veškeré hmoty, energie a časoprostoru, který je obsahuje. Zahrnuje tedy hvězdy, planety, galaxie, mezigalaktický prostor, temnou hmotu a další.</p>
+        </div>
+    </section>
+
+    <section class="explore">
       <h2>Prozkoumej</h2>
-      <div class="card-grid">
-        <div class="card">
-          <img src="galaxie.jpg" alt="Galaxie">
-          <h3>Galaxie</h3>
-          <p>Hvězda nebo zářivá stlačená tělesa ve vesmíru…</p>
-        </div>
-        <div class="card">
-          <img src="hvezdy.jpg" alt="Hvězdy">
-          <h3>Hvězdy</h3>
-          <p>Hvězda nebo zářivá stlačená tělesa ve vesmíru…</p>
-        </div>
-        <div class="card">
-          <img src="cernadira.jpg" alt="Černé díry">
-          <h3>Černé díry</h3>
-          <p>Černá díra je vesmírný objekt s hmotností…</p>
-        </div>
+      <div class="explore-grid">
+        <article class="explore-card">
+          <img src="/2024-p2b-web-projekt-vyhli/img/galaxie-neco.PNG" alt="" class="card-image">
+          <div class="card-content">
+            <h3>Galaxie</h3>
+            <p>Hvězda nebo zastarale stálice je plazmové, přibližně kulovité těleso ve vesmíru, které má vlastní zdroj viditelného záření,</p>
+          </div>
+        </article>
+
+        <article class="explore-card">
+          <img src="/2024-p2b-web-projekt-vyhli/img/hvezdy-neco.PNG" alt="" class="card-image">
+            <div class="card-content">
+              <h3>Hvězdy</h3>
+              <p>Hvězda nebo zastarale stálice je plazmové, přibližně kulovité těleso ve vesmíru, které má vlastní zdroj viditelného záření.</p>
+            </div>
+        </article>
+
+        <article class="explore-card">
+          <img src="/2024-p2b-web-projekt-vyhli/img/cernediry-neco.PNG" alt="" class="card-image">
+            <div class="card-content">
+              <h3>Černé díry</h3>
+              <p>Černá díra je vesmírný objekt s ohromující gravitační silou, která pohltí všechno v dosahu.</p>
+            </div>
+        </article>
       </div>
     </section>
 
     <section class="exoplanets">
       <div class="exoplanets-content">
         <h2>Exoplanety</h2>
-        <p>Body text for whatever you’d like to expand on the main point.</p>
-        <button>Zjisti víc</button>
+        <div class="exoplanets-text">
+          <p>Exoplaneta je jakákoli planeta mimo naši sluneční soustavu. Většina z nich obíhá kolem jiných hvězd.</p>
+          <p>Některé volně plovoucí exoplanety, nazývané rogue planety, nejsou připoutány k žádné hvězdě. Potvrdili jsme více než 5 800 exoplanet z miliard, o kterých věříme, že existují.</p>
+        </div>
+        <button class="cta-button">Zjisti víc</button>
       </div>
-      <img src="exoplaneta.jpg" alt="Exoplaneta">
+      <img src="/2024-p2b-web-projekt-vyhli/img/exoplanety-neco.PNG" alt="" class="exoplanets-image">
     </section>
 
     <section class="articles">
       <h2>Další články</h2>
-      <div class="article-grid">
-        <div class="article-card">
-          <img src="slunecni.jpg" alt="Sluneční soustava">
-          <h3>Sluneční soustava</h3>
-          <p>Body text for whatever…</p>
-        </div>
-        <div class="article-card">
-          <img src="teleskop.jpg" alt="Teleskop Jamesse Webba">
-          <h3>Teleskop Jamesse Webba</h3>
-          <p>Body text for whatever…</p>
-        </div>
+      <div class="articles-grid">
+        <article class="article-card">
+          <img src="/2024-p2b-web-projekt-vyhli/img/slunecnisoustavy.PNG" alt="" class="article-image">
+          <div class="article-content">
+            <h3>Sluneční soustava</h3>
+            <p>Body text for whatever you'd like to add more to the subheading.</p>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <img src="/2024-p2b-web-projekt-vyhli/img/teleskop.PNG" alt="" class="article-image">
+          <div class="article-content">
+            <h3>Teleskop Jamese Licka</h3>
+            <p>Body text for whatever you'd like to expand on the main point.</p>
+          </div>
+        </article>
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>© Vesmír</p>
-  </footer>
-
+  <footer class="main-footer">
+    <div class="footer-logo">O Vesmíru</div>
+  </footer>
 </body>
 </html>
