@@ -1,0 +1,1 @@
+header{background-color:#000;position:fixed;top:0;left:0;height:100px;width:100%;padding:0 4rem;display:flex;align-items:center;justify-content:space-between;z-index:999}.logo{color:#fff;font-weight:500}.main-nav{display:grid;grid-auto-flow:column;gap:48px}.nav-item{color:#fff;font-weight:500;cursor:pointer}.nav-item:hover{color:#71717a}
