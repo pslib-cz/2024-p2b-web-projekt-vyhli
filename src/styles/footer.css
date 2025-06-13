@@ -1,0 +1,11 @@
+footer {
+  background-color: black;
+  margin-top: auto;
+  padding: 3rem 4rem;
+  width: 100%;
+}
+
+.footer-logo {
+  color: white;
+  font-weight: 500;
+}
